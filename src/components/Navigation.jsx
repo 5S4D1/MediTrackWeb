@@ -11,7 +11,7 @@ function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-linear-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">M</span>
             </div>
             <span className="text-2xl font-bold text-white">Meditrack</span>

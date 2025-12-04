@@ -14,7 +14,7 @@ function About() {
 
         {/* Story Section */}
         <div className="max-w-4xl mx-auto space-y-12">
-          <section className="bg-white/10 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/20">
+          <section className="bg-white/5 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/10">
             <h2 className="text-3xl font-bold text-white mb-6 flex items-center">
               <span className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4 text-blue-400">
                 📖
@@ -36,7 +36,7 @@ function About() {
           </section>
 
           {/* Problem Statement */}
-          <section className="bg-white/10 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/20">
+          <section className="bg-white/5 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/10">
             <h2 className="text-3xl font-bold text-white mb-6 flex items-center">
               <span className="w-12 h-12 bg-red-500/20 rounded-lg flex items-center justify-center mr-4 text-red-400">
                 ⚠️
@@ -64,7 +64,7 @@ function About() {
           </section>
 
           {/* Mission */}
-          <section className="bg-gradient-to-r from-blue-600 to-green-600 p-8 md:p-12 rounded-2xl shadow-2xl text-white">
+          <section className="bg-linear-to-r from-[#071133] via-[#09203f] to-[#0f766e] p-8 md:p-12 rounded-2xl shadow-2xl text-white">
             <h2 className="text-3xl font-bold mb-6 flex items-center">
               <span className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4">
                 🎯
@@ -85,7 +85,7 @@ function About() {
           </section>
 
           {/* Impact & SDG 3 */}
-          <section className="bg-white/10 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/20">
+          <section className="bg-white/5 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/10">
             <h2 className="text-3xl font-bold text-white mb-6 flex items-center">
               <span className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4 text-green-400">
                 🌍
@@ -141,7 +141,7 @@ function About() {
           </section>
 
           {/* Vision */}
-          <section className="bg-white/10 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/20">
+          <section className="bg-white/5 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg border border-white/10">
             <h2 className="text-3xl font-bold text-white mb-6 flex items-center">
               <span className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4 text-blue-400">
                 🔮
@@ -163,4 +163,3 @@ function About() {
 }
 
 export default About
-

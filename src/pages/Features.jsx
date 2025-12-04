@@ -63,7 +63,7 @@ function Features() {
   ]
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#060010' }}>
+    <div className="min-h-screen">
       <div className="container mx-auto px-4 py-16">
         {/* Header */}
         <div className="text-center mb-16">
@@ -80,8 +80,8 @@ function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
-                       transform hover:-translate-y-2 border border-white/20"
+              className="bg-white/4 backdrop-blur-sm p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
+                       transform hover:-translate-y-2 border border-white/7"
             >
               <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-6 
                             ${feature.color === 'blue' ? 'bg-blue-500/20 text-blue-400' : 'bg-green-500/20 text-green-400'}`}>
@@ -99,7 +99,7 @@ function Features() {
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-12 text-white shadow-2xl">
+          <div className="bg-linear-to-r from-blue-600 to-green-600 rounded-2xl p-12 text-white shadow-2xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Ready to Get Started?
             </h2>
@@ -119,4 +119,3 @@ function Features() {
 }
 
 export default Features
-
