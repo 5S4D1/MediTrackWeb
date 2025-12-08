@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   return (
     <Router>
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-[#060010]">
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
