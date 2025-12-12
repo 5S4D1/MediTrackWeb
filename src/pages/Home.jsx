@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Threads from '../components/Threads'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -99,6 +100,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

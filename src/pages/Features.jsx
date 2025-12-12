@@ -1,3 +1,5 @@
+import Footer from '../components/Footer'
+
 function Features() {
   const features = [
     {
@@ -114,6 +116,7 @@ function Features() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

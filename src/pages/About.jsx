@@ -1,3 +1,5 @@
+import Footer from '../components/Footer'
+
 function About() {
   return (
     <div className="min-h-screen">
@@ -158,6 +160,7 @@ function About() {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
