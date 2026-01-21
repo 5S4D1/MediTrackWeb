@@ -15,7 +15,7 @@ function Emergency() {
         setError(null)
         
         // Replace with your actual backend API URL
-        const API_BASE_URL = import.meta.env.VITE_API_BASE_URL|| 'https://meditrackbackend.onrender.com' || 'http://localhost:3000'
+        const API_BASE_URL = 'https://meditrackbackend.onrender.com'
         const response = await fetch(`${API_BASE_URL}/emergency/${uid}/${accessId}`)
         
         if (!response.ok) {
