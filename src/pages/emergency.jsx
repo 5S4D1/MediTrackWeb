@@ -125,7 +125,7 @@ function Emergency() {
               <div className="bg-white/5 rounded-xl p-6 border border-white/10">
                 <p className="text-gray-400 text-sm mb-1">Full Name</p>
                 <p className="text-white text-xl font-semibold">
-                  {emergencyData.fullName || 'Not provided'}
+                  {emergencyData.displayName || 'Not provided'}
                 </p>
               </div>
               <div className="bg-white/5 rounded-xl p-6 border border-white/10">
